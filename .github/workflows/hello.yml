@@ -1,18 +1,15 @@
+---
 name: Hello Arun Aqua
-
-'on':
-push:
+on: null
+push: null
 branches:
-- main
-
-jobs:
-greet:
+  - main
+jobs: null
+greet: null
 runs-on: ubuntu-latest
-
 steps:
   - name: Say hello
     run: echo "hello dosto"
-
   - name: Say hello to username
     run: echo "hello Arun"
 details:
