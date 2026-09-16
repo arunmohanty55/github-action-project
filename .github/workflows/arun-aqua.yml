@@ -1,17 +1,10 @@
 name: Arun Aqua
 
-on:
-push:
-branches:
-- main
+on: push
 
 jobs:
 greet:
 runs-on: ubuntu-latest
-
 steps:
-  - name: Say hello to users
-    run: echo "hello dosto"
-
-  - name: Say hello to username
-    run: echo "hello to username"
+- name: Say hello
+run: echo "hello dosto"
