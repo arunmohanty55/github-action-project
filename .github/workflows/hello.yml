@@ -23,7 +23,7 @@ jobs:
 
       - name: Show Docker version
         run: docker --version
- build: 
+  build: 
    runs-on: ubuntu-latest
    steps:
      - name: will do build
