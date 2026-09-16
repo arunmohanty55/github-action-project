@@ -6,30 +6,26 @@ name: Hello Arun Aqua
       - main
 
 jobs:
-  greet:
+  checkout:
     runs-on: ubuntu-latest
     steps:
-      - name: Say hello
-        run: echo "hello dosto"
+      - name: checkout code
+        run: echo "code clone from github"
 
-      - name: Say hello to username
-        run: echo "hello Arun"
-
-  details:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Show Python version
-        run: python --version
-
-      - name: Show Docker version
-        run: docker --version
-  build: 
+      - name: build docker container
+        run: echo "docker container"
+        
+  test: 
    runs-on: ubuntu-latest
    steps:
-     - name: will do build
-       run: echo "docker build"
-  test:
+     - name: test the code
+       run: echo "test operation is going on"
+       
+  deploy:
    runs-on: ubuntu-latest
    steps:
-     - name: will do the test
-       run: echo "testing"       
+     - name: deployment
+       run: echo "deployment is going on"       
