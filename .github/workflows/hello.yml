@@ -23,3 +23,8 @@ jobs:
 
       - name: Show Docker version
         run: docker --version
+ build: 
+   runs-on: ubuntu-latest
+   steps:
+     - name: will do build
+       run: echo "docker build"
