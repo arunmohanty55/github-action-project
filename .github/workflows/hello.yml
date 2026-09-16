@@ -28,3 +28,8 @@ jobs:
    steps:
      - name: will do build
        run: echo "docker build"
+  test:
+   runs-on: ubuntu-latest
+   steps:
+     - name: will do the test
+       run: echo "testing"       
