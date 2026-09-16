@@ -1,1 +1,15 @@
+name: arun-aqua
+on:
+  push:
+   branches: [main]
+  
 
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello to users
+      - echo "hello dosto"
+
+      - name: say hello to username
+      - echo "hello to username"
