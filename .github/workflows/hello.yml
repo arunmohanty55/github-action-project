@@ -13,7 +13,7 @@ steps:
   - name: Say hello to username
     run: echo "hello Arun"
 details:
-  runs-on: ubuntu-latest
+runs-on: ubuntu-latest
   steps:
     - name: show what is the version of python and docker
       run: docker ---version && python --version
